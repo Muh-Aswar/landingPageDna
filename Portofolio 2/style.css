@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.container-menu{
+  margin-top: 30px;
+  display: flex;
+}
+
+.menu-brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px 0 10px;
+}
+.menu-brand > p{
+  margin: 0 10px;
+}
+.menu-brand > img{
+  width: 25px;
+}
+
+.menu-default{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-kanan{
+}
+
+.menu-kanan > ul> li> .signup{
+  border: 1px solid #dbb40d;
+  border-radius: 8px;
+  margin: 0 8px;
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+
+}
+
+li a:hover{
+  background-color: #FF3333;
+  border-radius: 8px;
+  transition: 0.9s;
+}
+
+
+
+
+
+
+/* STYLE KONTENT */
+
+.container-kontent{
+  margin-top: 30px;
+  height: 350px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+
+.kontent-kiri{
+  width: 60%;
+
+}
+.kontent-kiri >div{
+  margin-left: 20%;
+}
+.kontent-kiri > div> div> h1{
+  font-size: 3.6em;
+}
+.kontent-text{
+  margin-bottom: 30px;
+}
+.kontent-kiri > div> p > .request{
+  border:1px solid #098755;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.kontent-kiri > div> p > .request:hover{
+  background: #098755;
+  color: #ffffff;
+
+  transition: 0.9s;
+}
+
+.kontent-kanan{
+  padding: 0 5px;
+}
+.kontent-kanan > div > img{
+  opacity: 0.7;
+  max-width: 400px;
+}
+
+
+
+
+
+
+
+
+/* END */
